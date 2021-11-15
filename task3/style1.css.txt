@@ -1,0 +1,131 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+    }
+    
+    .header {
+        text-align: center;
+        padding: 32px;
+        height: 200px;
+        background-color: #395380;
+        color: #DADAD4;
+    }
+    
+    .nav {
+        display: flex;
+        background-color: #DB7B16;
+        margin-top: 0;
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+    
+    .nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #E8EAEB
+    }
+    
+    .nav a:hover {
+        background-color: #322228;
+    }
+    
+    .about {
+        background-color: #395380;
+        color: #DADAD4;
+        /* width: 30%; */
+        flex: 30%;
+        padding: 10px;
+        border-right: 7px solid #DB7B16;
+    }
+    
+    .content1 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+    
+    .pic1 {
+        display: flex;
+        width: 100%;
+        background-color: #DB7B16;
+        line-height: 180px;
+        justify-content: center;
+        font-size: 30px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    
+    .pic2 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        background-color: #DB7B16;
+        line-height: 60px;
+        justify-content: center;
+        font-size: 24px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    
+    .pic3 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        background-color: #DB7B16;
+        line-height: 60px;
+        justify-content: center;
+        font-size: 24px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    
+    .pic4 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        background-color: #DB7B16;
+        line-height: 60px;
+        justify-content: center;
+        font-size: 24px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    
+    .BigHeader {
+        background-color: #395380;
+        color: #DADAD4;
+        /* width: 70%; */
+        flex: 70%;
+        padding: 10px;
+    }
+    
+    .pic5 {
+        background-color: #DB7B16;
+        width: 100%;
+        font-size: 24px;
+        display: flex;
+        line-height: 180px;
+        justify-content: center;
+    }
+    
+    .Footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        line-height: 100px;
+        background-color: #DB7B16;
+        font-size: 30px;
+        font-weight: bold;
+        color: #DADAD4;
+    }
